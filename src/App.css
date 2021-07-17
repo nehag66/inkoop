@@ -25,17 +25,40 @@ body {
 .item1 {
   grid-column: 1;
   grid-row: 1 / span 3;
-  font-family: serif;
-  font-size: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
   display: none;
+  padding: 10px;
 }
 
 .button-open {
   display: inline;
+  position: absolute;
+  background: #042331;
+  color: white;
+  border-radius: 3px;
+  font-size: 30px;
+  padding: 2px 10px;
+  margin: 10px;
 }
 
 .button-close {
   display: inline;
+  background: #042331;
+  color: white;
+  border-radius: 3px;
+  font-size: 30px;
+  padding: 2px 10px;
+}
+
+.item1-button {
+  background-color: rgb(241, 99, 74);
+  border-radius: 18px;
+  font-size: 16px;
+  margin: 4px 2px;
+  border: none;
+  padding: 8px 35px;
+  cursor: pointer;
 }
 
 .item2 {
@@ -44,6 +67,7 @@ body {
   padding: 100px;
   font-family: sans-serif;
   font-size: 18px;
+  text-align: left;
 }
 .item3 {
   grid-column: 2;
@@ -59,7 +83,7 @@ body {
 .item4 {
   grid-column: span 2;
   grid-row: 3;
-  margin-left: 230px;
+  margin-left: 240px;
 }
 
 @media screen and (min-width: 500px) {
@@ -72,4 +96,17 @@ body {
   .button-open {
     display: none;
   }
+
+  /* .item3 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 1;
+  }
+  .item4 {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 2;
+  }
+  .item2 {
+    grid-column: span 4;
+    grid-row: 4;
+  } */
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./item2.css";
 
 const item2 = () => {
   return (
@@ -8,6 +9,7 @@ const item2 = () => {
         nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
         volutpat.
       </p>
+      <hr className="line1" />
     </div>
   );
 };
