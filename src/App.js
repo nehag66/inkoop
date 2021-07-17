@@ -6,7 +6,7 @@ import Item4 from "./components/item4";
 
 function App(props) {
   function w3_open() {
-    // document.getElementById("mySidebar").style.display = "inline";
+    document.getElementById("mySidebar").style.display = "inline";
   }
 
   return (

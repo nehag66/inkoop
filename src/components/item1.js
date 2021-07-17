@@ -6,10 +6,6 @@ const item1 = () => {
   }
   return (
     <div className="grid-item item1" id="mySidebar">
-      {/* <span
-        className="w3-sidebar w3-light-grey w3-bar-block"
-        style={{ width: "18%" }}
-      > */}
       <div className="sidebar">
         <button onClick={() => w3_close()} className="button-close">
           Close &times;

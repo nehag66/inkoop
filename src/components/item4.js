@@ -23,7 +23,7 @@ const item4 = () => {
           <img src={FarmhousePizza} alt="farmhousepizza" className="images" />
           <div className="container">
             <h4>
-              <b>Farmhouse Pizza</b>
+              <b>Chicken Pizza</b>
             </h4>
           </div>
         </div>
